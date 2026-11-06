@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upper Half Scroll</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .upper-half {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background-color: #f0f0f0;
+            border-bottom: 2px solid #ccc;
+            box-sizing: border-box;
+            /* Enable vertical scrolling */
+            overflow-y: scroll; 
+            overflow-x: hidden;
+        }
+
+        .upper-half img {
+            /* Forces the image width to span completely across the section */
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .lower-half {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background-color: #ffffff;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="upper-half">
+        <img src="https://www.designhill.com/design-blog/?media_dl=96514" alt="Starbucks Logo History Infographic">
+    </div>
+
+    <div class="lower-half">
+        <h2>4 STAGES:</h2>
+        <p> <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Brand Evolution</title>
+    <style>
+        body {
+            font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+            line-height: 1.6;
+            color: #2D2D2D;
+            background-color: #F4F2EC;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+        }
+        h1 {
+            color: #006241;
+            font-size: 32px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid #006241;
+            padding-bottom: 12px;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1E3932;
+            font-size: 22px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #E0E0E0;
+            padding-bottom: 8px;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .intro-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            background: #F7F7F7;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #EAEAEA;
+            margin-bottom: 20px;
+        }
+        .target-box {
+            background: #FFF8EE;
+            border-left: 4px solid #D4A373;
+            padding: 15px 20px;
+            border-radius: 0 12px 12px 0;
+            margin-bottom: 40px;
+        }
+        .stage-card {
+            background: #FFFFFF;
+            border-left: 5px solid #006241;
+            padding: 25px;
+            margin-bottom: 35px;
+            border-top: 1px solid #EAEAEA;
+            border-right: 1px solid #EAEAEA;
+            border-bottom: 1px solid #EAEAEA;
+            border-radius: 0 12px 12px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+        }
+        .stage-header {
+            font-weight: bold;
+            font-size: 18px;
+            color: #006241;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .sub-section {
+            margin-bottom: 20px;
+        }
+        .sub-section:last-child {
+            margin-bottom: 0;
+        }
+        .sub-title {
+            font-weight: bold;
+            color: #4A4A4A;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+        .label {
+            font-weight: bold;
+            color: #1E3932;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Starbucks Overview</h1>
+    
+    <div class="intro-grid">
+        <div>
+            <h2>STARBUCKS INTRODUCTION:</h2>
+            <ul>
+                <li><span class="label">Created:</span> March 30, 1971, Seattle</li>
+                <li><span class="label">Originally Offered:</span> Not a cafe Just specialty whole-bean coffee, tea, and spices (Small menu)</li>
+                <li><span class="label">Currently Offering:</span> A relaxed, sit-down cafe (free wifi, music, etc)</li>
+            </ul>
+        </div>
+        <div>
+            <h2>KNOWN FOR:</h2>
+            <ul>
+                <li>Making coffees</li>
+                <li>World’s largest coffee house chain</li>
+                <li>Espressos, Frappucino, Lattes, Pastries, Sandwiches, etc (Big menu)</li>
+                <li>Mobile Ordering App</li>
+                <li>Starbucks Reward Loyalty Program</li>
+                <li>Sweet drinks</li>
+                <li>Consistent overall experience</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="target-box">
+        <span class="label">Target Audience:</span> Starbucks’s original target audience was actually made for older people. However, over the years, they moved onto a younger part of the population.
+    </div>
+
+    <h2>VISUAL TIMELINE: 4 SIGNIFICANT STAGES</h2>
+
+    <!-- STAGE 1 -->
+    <div class="stage-card">
+        <div class="stage-header">STAGE 1</div>
+        
+        <div class="sub-section">
+            <div class="sub-title">Historical Context:</div>
+            <ul>
+                <li>The company had lots of inspiration from their founding place, Seattle, the history of maritime and sea-faring</li>
+                <li>Targeted toward audience of middle age people</li>
+                <li>Enemies were independent local coffee shops → Nestle and Dunkin’ Brands</li>
+                <li>First store, 1 store at first, near Pike Place Market</li>
+                <li>Jerry Baldwin - English teacher, Gordon Bowker - Writer, Zev Siegl - History teacher→ original founders</li>
+                <li>Whole-bean coffee, loose-leaf tea, and spices = original products (not yet brewed beverages and lattes)</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Logo:</div>
+            <ul>
+                <li><span class="label">Style:</span> Wood carving of a two-tailed mermaid</li>
+                <li><span class="label">Details:</span> She was not wearing any clothes and looked detailed and very old-style</li>
+                <li><span class="label">Shape:</span> Inside of a circle frame</li>
+                <li><span class="label">Designed:</span> Terry Heckler</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Typography:</div>
+            <ul>
+                <li><span class="label">Font Style:</span> Thick, clean letters with no extra hooks (sans-serif)</li>
+                <li><span class="label">Details:</span> All capital letters, "STARBUCKS COFFEE TEA SPICES"</li>
+                <li><span class="label">Spacing:</span> Letters had wide spaces between them to look aesthetically appealing in a clean way</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Colours:</div>
+            <ul>
+                <li><span class="label">Palette:</span> Dark brown</li>
+                <li><span class="label">Meaning:</span> Connected to the colour of coffee beans</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Intended Message:</div>
+            <ul>
+                <li><span class="label">Vibe:</span> Vintage & Authentic</li>
+                <li><span class="label">Goal:</span> Told customers that this shop sold high-quality, imported ingredients for baking and brewing at home</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- STAGE 2 -->
+    <div class="stage-card">
+        <div class="stage-header">STAGE 2: 2nd Logo</div>
+        
+        <div class="sub-section">
+            <div class="sub-title">Historical context:</div>
+            <ul>
+                <li>Howard Schultz bought Starbucks for 3.8 million dollars = merged it with his own coffee bar chain - Il Giornale</li>
+                <li>The company moved from only selling coffee beans, tea, and spices to espressos, lattes, and brewed coffee</li>
+                <li>Only 11 to 17 stores at the time → led to rapid regional and national expansion - opening locations in Chicago and Vancouver</li>
+                <li>The audience moved from culinary coffee lovers to everyday people looking for a relaxing café</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Logo:</div>
+            <ul>
+                <li>Decided the bare-chested mermaid was too risky for public view, so they switched to her hair covering her bare chest</li>
+                <li>She was on a black circle, framed by a thick outer green ring containing text that says Starbucks Coffee (it removed the words “Tea” and “Spices”), 2 stars separated the words on the left and right sides</li>
+                <li>The frame & shape remained a circle</li>
+                <li>The palette switched from brown to green</li>
+                <li>Designed by Doug Fast and Terry Heckler</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Typography:</div>
+            <ul>
+                <li>used a bold sans-serif typeface</li>
+                <li>Lettering remained all caps and set inside the outer ring</li>
+                <li>The letterings resembled Franklin Gothic font</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Palette:</div>
+            <ul>
+                <li>Introduced the colour of emerald green into the outer circle, black in the backdrop, and the mermaid is white, to keep high contrast between the mermaid and the background</li>
+                <li>From the original 1971 earthy "coffee brown" change to the green palette was from the Il Giornale company colours → Green = growth, freshness, prosperity, new beginning</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Intended Message:</div>
+            <ul>
+                <li>The design signaled a change from local, gritty seaport shop to clean, modern brand</li>
+                <li>The updated siren looked more professional and welcoming</li>
+                <li>The new look appealed directly to 1980s urban workers looking for a daily café</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- STAGE 3 -->
+        <!-- STAGE 3 -->
+    <div class="stage-card">
+        <div class="stage-header">STAGE 3</div>
+        
+        <div class="sub-section">
+            <div class="sub-title">Historical Context:</div>
+            <ul>
+                <li>Company went public in 1992, on NASDAQ stock exchange to fund new expansions</li>
+                <li>Store count = goes beyond 160 locations all across North America big cities</li>
+                <li>Grew outside traditional cafes, placing legal small corners in grocery stores, bookstores, etc</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Logo:</div>
+            <ul>
+                <li>Design zoomed in, cutting points below her chest-ish belly, cropping her split fishtails so that only some of it stayed visible on the sides</li>
+                <li>Became cleaner and much less cluttered by shifting focus to her smiling face and wavy hair</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Typography:</div>
+            <ul>
+                <li>The lettering stayed with the 1987 bold, geometric, all-caps sans-serif</li>
+                <li>The text grew slightly within the outer green border due to the cropped parts in the center</li>
+                <li>The font style stayed the same</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Palette:</div>
+            <ul>
+                <li>The palette stayed the exact same from Stage 2</li>
+                <li>Contrast got better because of zoomed in details that reduce some of the intricate illustrations of the mermaid, white on black still but better contrast overall</li>
+                <li>Colour = now globally recognized as “Starbucks Green”</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Intended Message:</div>
+            <ul>
+                <li>Hidden her body to make the emblem look even more family-friendly</li>
+                <li>The closer framing emphasized a personal, welcoming by highlighting the mermaid’s face</li>
+                <li>The refined look showed corporate modernization by making it look cleaner overall</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- STAGE 4 -->
+    <div class="stage-card">
+        <div class="stage-header">STAGE 4 (LAST STAGE WOOHOO)</div>
+        
+        <div class="sub-section">
+            <div class="sub-title">Historical context:</div>
+            <ul>
+                <li>The company expanded globally into non-coffee consumer products, selling drinks, ice cream, and other things in grocery stores</li>
+                <li>The digital era arrived → digital rewards programs, and small mobile screens</li>
+                <li>The brand evolved beyond traditional café walls</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Logo:</div>
+            <ul>
+                <li>Outer ring = removed, removing the circular border, the stars, and the words "STARBUCKS COFFEE."</li>
+                <li>The mermaid was switched onto against solid green background</li>
+                <li>Asymmetry was added to her nose and eyes designed by Lippincott to make her face look more human and less perfect</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Typography:</div>
+            <ul>
+                <li>They removed the letters</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Palette:</div>
+            <ul>
+                <li>palette = just 2 colours: Starbucks green and white</li>
+                <li>The solid black background behind the siren was completely erased</li>
+                <li>The iconic emerald green took center stage for the brand's identity</li>
+            </ul>
+        </div>
+
+        <div class="sub-section">
+            <div class="sub-title">Intended Message:</div>
+            <ul>
+                <li>Wordless design = no longer just a coffee company → they sell teas and other food freely now</li>
+                <li>Borderless = a modern view that doesn't need its name on there to be recognizable</li>
+                <li>Icon = make online appearance better, making the logo even cleaner, and recognizable on tiny mobile app icons</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<a href="main.html" style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">Back to Main Page</a>
+</body>
+</html>
+
